@@ -36,7 +36,7 @@ do innej. Dozwolone s± mieszane podstawy liczb.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
