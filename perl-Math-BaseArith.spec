@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	BaseArith
+%define		pdir	Math
+%define		pnam	BaseArith
 Summary:	Math::BaseArith - Perl extension for mixed-base number representation
 Summary(pl):	Math::BaseArith - rozszerzenie Perla do reprezentacji liczb o ró¿nej podstawie
 Name:		perl-Math-BaseArith
