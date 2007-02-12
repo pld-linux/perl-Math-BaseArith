@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	BaseArith
 Summary:	Math::BaseArith - Perl extension for mixed-base number representation
-Summary(pl):	Math::BaseArith - rozszerzenie Perla do reprezentacji liczb o ró¿nej podstawie
+Summary(pl.UTF-8):   Math::BaseArith - rozszerzenie Perla do reprezentacji liczb o rÃ³Å¼nej podstawie
 Name:		perl-Math-BaseArith
 Version:	1.00
 Release:	2
@@ -26,11 +26,11 @@ programming language called encode (a.k.a. "representation") and
 decode (a.k.a. base-value). Their principal use is to convert numbers
 from one number base to another. Mixed number bases are permitted.
 
-%description -l pl
-Ten modu³ jest zainspirowany par± funkcji w jêzyku programowania APL o
-nazwach encode (czyli "reprezentacja") oraz decode (warto¶æ bazowa).
+%description -l pl.UTF-8
+Ten moduÅ‚ jest zainspirowany parÄ… funkcji w jÄ™zyku programowania APL o
+nazwach encode (czyli "reprezentacja") oraz decode (wartoÅ›Ä‡ bazowa).
 Zasadnicze ich przeznaczenie to przeliczanie liczb z jednej podstawy
-do innej. Dozwolone s± mieszane podstawy liczb.
+do innej. Dozwolone sÄ… mieszane podstawy liczb.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
