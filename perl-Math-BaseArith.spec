@@ -9,7 +9,7 @@ Summary:	Math::BaseArith - Perl extension for mixed-base number representation
 Summary(pl.UTF-8):	Math::BaseArith - rozszerzenie Perla do reprezentacji liczb o różnej podstawie
 Name:		perl-Math-BaseArith
 Version:	1.00
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
