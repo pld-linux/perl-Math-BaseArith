@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	BaseArith
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::BaseArith - Perl extension for mixed-base number representation
 Summary(pl.UTF-8):	Math::BaseArith - rozszerzenie Perla do reprezentacji liczb o różnej podstawie
 Name:		perl-Math-BaseArith
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4fb5ba50af1e8d83e0d442d4b950703c
+URL:		http://search.cpan.org/dist/Math-BaseArith/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
