@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	BaseArith
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::BaseArith - Perl extension for mixed-base number representation
 Summary(pl.UTF-8):	Math::BaseArith - rozszerzenie Perla do reprezentacji liczb o różnej podstawie
 Name:		perl-Math-BaseArith
